@@ -1,5 +1,5 @@
 [user]
-	email = koskinen.joosua@gmail.com
-	name = Joosua Koskinen
+	email = Emailaddress
+	name = Firstname Lastname
 [core]
 	editor = vim

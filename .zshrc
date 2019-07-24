@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to oh-my-zsh installation
-export ZSH="/home/joosua/.oh-my-zsh"
+export ZSH="~/.oh-my-zsh"
 
 # Set the theme to load
 ZSH_THEME="avit"
