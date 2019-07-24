@@ -10,6 +10,33 @@ urxvt*scrollBar:	false
 urxvt*depth:		32
 urxvt*background:	rgba:1600/1b00/2100/ee00
 
+! URxvt plugins
+URxvt.perl-ext-common:			tabbedex
+
+! Fix URxvt word by word movement
+URxvt.keysym.Control-Left:		\033[1;5D
+URxvt.keysym.Control-Right:		\033[1;5C
+
+! Tabbedex configs
+
+URxvt.tabbed.no-tabbedex-keys:		true
+URxvt.tabbed.new-button: 		true
+URxvt.tabbed.autohide: 			true
+URxvt.keysym.Control-t: 		perl:tabbedex:new_tab
+URxvt.keysym.Control-Shift-Right:	perl:tabbedex:next_tab
+URxvt.keysym.Control-Shift-Left:	perl:tabbedex:prev_tab
+
+URxvt.tabbed.tabbar-fg:   		#cccccc
+URxvt.tabbed.tabbar-bg:   		#1a1a1a
+URxvt.tabbed.tab-fg:      		#466a8e
+URxvt.tabbed.tab-bg:      		#1a1a1a
+URxvt.tabbed.bell-tab-fg: 		#ffffff
+URxvt.tabbed.bell-tab-bg: 		#3399ff
+URxvt.tabbed.bell-fg:     		#ffffff
+URxvt.tabbed.bell-bg:     		#1a1a1a
+URxvt.tabbed.title-fg:    		#1a1a1a
+URxvt.tabbed.title-bg:    		#1a1a1a
+
 ! special
 *.foreground:   #e5e6e5
 *.background:   #20201d
