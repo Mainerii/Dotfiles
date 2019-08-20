@@ -1,8 +1,8 @@
 # Add additional paths
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=/home/joosua/.cargo/bin:$PATH
 
 # Path to oh-my-zsh installation
-export ZSH="~/.oh-my-zsh"
+export ZSH="/home/joosua/.oh-my-zsh"
 
 # Set the theme to load
 ZSH_THEME="avit"
@@ -24,9 +24,11 @@ DISABLE_AUTO_TITLE="true"
 
 # History configuration
 HIST_STAMPS="yyy-mm-dd"
-HISTFILE="~/.history"
-HISTSIZE="1000"
-SAVEHIST="5000"
+HISTFILE="/home/joosua/.zsh_history"
+HISTSIZE=10000
+SAVEHIST=50000
+setopt appendhistory
+setopt incappendhistory
 
 # Plugins to load
 plugins=(
@@ -35,7 +37,7 @@ plugins=(
 )
 
 # SSH-agent plugin configuration
-zstyle :omz:plugins:ssh-agent lifetime 4h
+zstyle :omz:plugins:ssh-agent identities id_rsa id_seravo
 
 source $ZSH/oh-my-zsh.sh
 

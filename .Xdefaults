@@ -2,6 +2,8 @@ URxvt.imLocale: 	fi_FI.utf8
 URxvt.iso14755: 	false
 URxvt.iso14755_52: 	false
 
+URxvt.saveLines:	20000
+
 URxvt.font:     	xft:FreeMono:size=11:antialias=true
 URxvt.boldFont: 	xft:FreeMono:bold:size=11:antialias=true
 
@@ -72,5 +74,5 @@ URxvt.tabbed.title-bg:    		#1a1a1a
 
 ! white
 *.color7:	#a6a28c
-*.color15:	#fefbec
+*.color15:      #fefbec
 
